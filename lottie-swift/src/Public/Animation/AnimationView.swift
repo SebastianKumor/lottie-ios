@@ -51,13 +51,7 @@ extension LottieLoopMode: Equatable {
 }
 
 @IBDesignable
-final public class AnimationView: LottieView {
-  
-  override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
-    print("Passing all touches to the next view (if any), in the view stack.")
-    return false
-  }
-
+public class AnimationView: LottieView {
   
   // MARK: - Public Properties
   
